@@ -1,1 +1,1 @@
-# quick-full
+https://faridcse.github.io/quick-full/
