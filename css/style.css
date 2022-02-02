@@ -1,0 +1,197 @@
+/* common css start */
+body{
+	margin: 0;
+	padding: 0;
+}
+/* common css end */
+
+/* header section css start */
+header{
+    padding: 10px 0;
+}
+header .container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: 2px solid #eef0f3;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 10%;
+	float: left;
+	margin-top: 5px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 45%;
+	float: right;
+}
+.menu ul{
+    overflow: hidden;
+    float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+    margin: 0 20px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/* header section css end */
+
+/* banner section css start */
+.banner{
+	padding: 60px 0;
+}
+.container2{
+	width: 55%;
+	margin: 0 auto;
+}
+.b_content{
+	text-align: center;
+	font-family: sans-serif;
+}
+.b_content h1{
+	margin: 0;
+	font-size: 45px;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #0f2656;
+}
+.b_content h2{
+	margin: 10px 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: #008aff;
+	margin-top: 0;
+}
+.b_content p{
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+	line-height: 25px;
+	word-spacing: 1px;
+}
+.b_content .b_image{
+	margin: 0 auto;
+	width: 75%;
+}
+.b_content .b_image img{
+	width: 100%;
+}
+/* banner section css end */
+
+/* completed project section css start */
+.completed-project{
+	width: 70%;
+	margin: 0 auto;
+}
+.left-contain{
+	font-family: sans-serif;
+	float: left;
+	width: 38%;
+	text-align: right;
+	padding: 0 25px;
+}
+.left-contain h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #f15767;
+    margin-bottom: 0;
+}
+.left-contain p{
+	font-size: 14px;
+	color: #0f2656;
+	margin: 0;
+}
+.right-contain{
+	float: left;
+	width: 40%;
+}
+.right-contain h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #0f2656;
+	line-height: 1.2;
+}
+/* completed project section css end */
+
+/* features section css start */
+.features{
+	padding: 20px 0;
+	font-family: sans-serif;
+}
+.feature{
+	width: 29%;
+	float: left;
+	padding: 40px 5px;
+	margin: 60px 20px;
+	-webkit-box-shadow: 0px 20px 20px 5px rgba(191,191,191,1);
+	-moz-box-shadow: 0px 20px 20px 5px rgba(191,191,191,1);
+	box-shadow: 0px 20px 20px 5px rgba(191,191,191,1);
+}
+.feature:first-child{
+	background-color: #fdebed;
+}
+.feature:nth-child(2){
+	background-color: #ebf9f4;
+}
+.feature:nth-child(3){
+	background-color: #fff7e8;
+	margin-right: 0;
+}
+.feature-image{}
+.feature-image img{
+	width: 100%;
+}
+.feature-text{
+    padding: 0 20px;
+}
+.feature-text h2{}
+.feature-text p{}
+/* features section css end */
+
+/* footer section css start */
+footer{
+	background-color: #008aff;
+	text-align: center;
+	padding: 20px 0;
+}
+footer p{
+	font-family: sans-serif;
+	color: #9ed2ff;
+	font-size: 14px;
+}
+footer p span{
+	font-family: sans-serif;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+}
+/* footer section css end */
